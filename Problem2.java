@@ -10,7 +10,7 @@ public class Problem2 {
         int c = input.nextInt();
 
         Rational h = new Rational(-b, 2*a);
-        Rational k = new Rational(4*a*c-b^2, 4*a);
+        Rational k = new Rational(4*a*c-b*b, 4*a);
 
         System.out.print("h is "+h.toString()+" k is "+k.toString());
       
